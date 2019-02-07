@@ -1,6 +1,9 @@
 To run the app, clone the repo locally
+
 To install dependencies `yarn install` or `npm install`.
+
 To run the app `yarn start` or `npm start`.
+
 To run tests, `yarn test` or `npm test`.
 
 ---
