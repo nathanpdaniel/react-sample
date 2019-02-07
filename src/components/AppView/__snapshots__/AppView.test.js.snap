@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppValues Tests should display properly after form submission 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AppView />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "onBack": [Function],
+      "values": Object {
+        "sampleMean": 1.2,
+        "sampleSize": 12,
+        "standardDeviation": 2.3,
+        "testHypothesis": false,
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "onBack": [Function],
+        "values": Object {
+          "sampleMean": 1.2,
+          "sampleSize": 12,
+          "standardDeviation": 2.3,
+          "testHypothesis": false,
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`AppValues Tests should display properly before form submission 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AppView />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "destroyOnUnmount": true,
+      "enableReinitialize": false,
+      "forceUnregisterOnUnmount": false,
+      "form": "appForm",
+      "getFormState": [Function],
+      "keepDirtyOnReinitialize": false,
+      "onSubmit": [Function],
+      "persistentSubmitErrors": false,
+      "pure": true,
+      "shouldAsyncValidate": [Function],
+      "shouldError": [Function],
+      "shouldValidate": [Function],
+      "shouldWarn": [Function],
+      "touchOnBlur": true,
+      "touchOnChange": false,
+      "updateUnregisteredFields": false,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": Object {
+        "destroyOnUnmount": true,
+        "enableReinitialize": false,
+        "forceUnregisterOnUnmount": false,
+        "form": "appForm",
+        "getFormState": [Function],
+        "keepDirtyOnReinitialize": false,
+        "persistentSubmitErrors": false,
+        "pure": true,
+        "shouldAsyncValidate": [Function],
+        "shouldError": [Function],
+        "shouldValidate": [Function],
+        "shouldWarn": [Function],
+        "touchOnBlur": true,
+        "touchOnChange": false,
+        "updateUnregisteredFields": false,
+      },
+      "displayName": "ReduxForm",
+      "render": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "destroyOnUnmount": true,
+        "enableReinitialize": false,
+        "forceUnregisterOnUnmount": false,
+        "form": "appForm",
+        "getFormState": [Function],
+        "keepDirtyOnReinitialize": false,
+        "onSubmit": [Function],
+        "persistentSubmitErrors": false,
+        "pure": true,
+        "shouldAsyncValidate": [Function],
+        "shouldError": [Function],
+        "shouldValidate": [Function],
+        "shouldWarn": [Function],
+        "touchOnBlur": true,
+        "touchOnChange": false,
+        "updateUnregisteredFields": false,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "destroyOnUnmount": true,
+          "enableReinitialize": false,
+          "forceUnregisterOnUnmount": false,
+          "form": "appForm",
+          "getFormState": [Function],
+          "keepDirtyOnReinitialize": false,
+          "persistentSubmitErrors": false,
+          "pure": true,
+          "shouldAsyncValidate": [Function],
+          "shouldError": [Function],
+          "shouldValidate": [Function],
+          "shouldWarn": [Function],
+          "touchOnBlur": true,
+          "touchOnChange": false,
+          "updateUnregisteredFields": false,
+        },
+        "displayName": "ReduxForm",
+        "render": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

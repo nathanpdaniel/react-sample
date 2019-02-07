@@ -1,0 +1,1060 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppValues Tests should display properly sans test hypothesis 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AppValues
+    onBack={[MockFunction]}
+    values={
+      Object {
+        "sampleMean": 1.23,
+        "sampleSize": 123,
+        "standardDeviation": -1.5,
+        "testHypothesis": false,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <div
+            className="label"
+          >
+            Sample Size:
+          </div>
+          <div>
+            123
+          </div>
+        </div>,
+        <div>
+          <div
+            className="label"
+          >
+            Standard Mean:
+          </div>
+          <div>
+            1.23
+          </div>
+        </div>,
+        <div>
+          <div
+            className="label"
+          >
+            Standard Deviation:
+          </div>
+          <div>
+            -1.5
+          </div>
+        </div>,
+        false,
+        <div
+          className="buttons"
+        >
+          <button
+            onClick={[MockFunction]}
+          >
+            Back
+          </button>
+        </div>,
+      ],
+      "className": "appValues",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="label"
+            >
+              Sample Size:
+            </div>,
+            <div>
+              123
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sample Size:",
+              "className": "label",
+            },
+            "ref": null,
+            "rendered": "Sample Size:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 123,
+            },
+            "ref": null,
+            "rendered": 123,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="label"
+            >
+              Standard Mean:
+            </div>,
+            <div>
+              1.23
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Standard Mean:",
+              "className": "label",
+            },
+            "ref": null,
+            "rendered": "Standard Mean:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 1.23,
+            },
+            "ref": null,
+            "rendered": 1.23,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="label"
+            >
+              Standard Deviation:
+            </div>,
+            <div>
+              -1.5
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Standard Deviation:",
+              "className": "label",
+            },
+            "ref": null,
+            "rendered": "Standard Deviation:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": -1.5,
+            },
+            "ref": null,
+            "rendered": -1.5,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            onClick={[MockFunction]}
+          >
+            Back
+          </button>,
+          "className": "buttons",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "onClick": [MockFunction],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <div
+              className="label"
+            >
+              Sample Size:
+            </div>
+            <div>
+              123
+            </div>
+          </div>,
+          <div>
+            <div
+              className="label"
+            >
+              Standard Mean:
+            </div>
+            <div>
+              1.23
+            </div>
+          </div>,
+          <div>
+            <div
+              className="label"
+            >
+              Standard Deviation:
+            </div>
+            <div>
+              -1.5
+            </div>
+          </div>,
+          false,
+          <div
+            className="buttons"
+          >
+            <button
+              onClick={[MockFunction]}
+            >
+              Back
+            </button>
+          </div>,
+        ],
+        "className": "appValues",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="label"
+              >
+                Sample Size:
+              </div>,
+              <div>
+                123
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sample Size:",
+                "className": "label",
+              },
+              "ref": null,
+              "rendered": "Sample Size:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 123,
+              },
+              "ref": null,
+              "rendered": 123,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="label"
+              >
+                Standard Mean:
+              </div>,
+              <div>
+                1.23
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Standard Mean:",
+                "className": "label",
+              },
+              "ref": null,
+              "rendered": "Standard Mean:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 1.23,
+              },
+              "ref": null,
+              "rendered": 1.23,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="label"
+              >
+                Standard Deviation:
+              </div>,
+              <div>
+                -1.5
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Standard Deviation:",
+                "className": "label",
+              },
+              "ref": null,
+              "rendered": "Standard Deviation:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": -1.5,
+              },
+              "ref": null,
+              "rendered": -1.5,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              onClick={[MockFunction]}
+            >
+              Back
+            </button>,
+            "className": "buttons",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Back",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": "Back",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`AppValues Tests should display properly with test hypothesis 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AppValues
+    onBack={[MockFunction]}
+    values={
+      Object {
+        "hypothesizedMean": 2.34,
+        "sampleMean": 1.23,
+        "sampleSize": 123,
+        "standardDeviation": -1.5,
+        "testHypothesis": true,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <div
+            className="label"
+          >
+            Sample Size:
+          </div>
+          <div>
+            123
+          </div>
+        </div>,
+        <div>
+          <div
+            className="label"
+          >
+            Standard Mean:
+          </div>
+          <div>
+            1.23
+          </div>
+        </div>,
+        <div>
+          <div
+            className="label"
+          >
+            Standard Deviation:
+          </div>
+          <div>
+            -1.5
+          </div>
+        </div>,
+        <div>
+          <div
+            className="label"
+          >
+            Hypothesized Mean
+          </div>
+          <div>
+            2.34
+          </div>
+        </div>,
+        <div
+          className="buttons"
+        >
+          <button
+            onClick={[MockFunction]}
+          >
+            Back
+          </button>
+        </div>,
+      ],
+      "className": "appValues",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="label"
+            >
+              Sample Size:
+            </div>,
+            <div>
+              123
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sample Size:",
+              "className": "label",
+            },
+            "ref": null,
+            "rendered": "Sample Size:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 123,
+            },
+            "ref": null,
+            "rendered": 123,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="label"
+            >
+              Standard Mean:
+            </div>,
+            <div>
+              1.23
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Standard Mean:",
+              "className": "label",
+            },
+            "ref": null,
+            "rendered": "Standard Mean:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 1.23,
+            },
+            "ref": null,
+            "rendered": 1.23,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="label"
+            >
+              Standard Deviation:
+            </div>,
+            <div>
+              -1.5
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Standard Deviation:",
+              "className": "label",
+            },
+            "ref": null,
+            "rendered": "Standard Deviation:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": -1.5,
+            },
+            "ref": null,
+            "rendered": -1.5,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="label"
+            >
+              Hypothesized Mean
+            </div>,
+            <div>
+              2.34
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hypothesized Mean",
+              "className": "label",
+            },
+            "ref": null,
+            "rendered": "Hypothesized Mean",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2.34,
+            },
+            "ref": null,
+            "rendered": 2.34,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            onClick={[MockFunction]}
+          >
+            Back
+          </button>,
+          "className": "buttons",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "onClick": [MockFunction],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <div
+              className="label"
+            >
+              Sample Size:
+            </div>
+            <div>
+              123
+            </div>
+          </div>,
+          <div>
+            <div
+              className="label"
+            >
+              Standard Mean:
+            </div>
+            <div>
+              1.23
+            </div>
+          </div>,
+          <div>
+            <div
+              className="label"
+            >
+              Standard Deviation:
+            </div>
+            <div>
+              -1.5
+            </div>
+          </div>,
+          <div>
+            <div
+              className="label"
+            >
+              Hypothesized Mean
+            </div>
+            <div>
+              2.34
+            </div>
+          </div>,
+          <div
+            className="buttons"
+          >
+            <button
+              onClick={[MockFunction]}
+            >
+              Back
+            </button>
+          </div>,
+        ],
+        "className": "appValues",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="label"
+              >
+                Sample Size:
+              </div>,
+              <div>
+                123
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sample Size:",
+                "className": "label",
+              },
+              "ref": null,
+              "rendered": "Sample Size:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 123,
+              },
+              "ref": null,
+              "rendered": 123,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="label"
+              >
+                Standard Mean:
+              </div>,
+              <div>
+                1.23
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Standard Mean:",
+                "className": "label",
+              },
+              "ref": null,
+              "rendered": "Standard Mean:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 1.23,
+              },
+              "ref": null,
+              "rendered": 1.23,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="label"
+              >
+                Standard Deviation:
+              </div>,
+              <div>
+                -1.5
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Standard Deviation:",
+                "className": "label",
+              },
+              "ref": null,
+              "rendered": "Standard Deviation:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": -1.5,
+              },
+              "ref": null,
+              "rendered": -1.5,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="label"
+              >
+                Hypothesized Mean
+              </div>,
+              <div>
+                2.34
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hypothesized Mean",
+                "className": "label",
+              },
+              "ref": null,
+              "rendered": "Hypothesized Mean",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2.34,
+              },
+              "ref": null,
+              "rendered": 2.34,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              onClick={[MockFunction]}
+            >
+              Back
+            </button>,
+            "className": "buttons",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Back",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": "Back",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
