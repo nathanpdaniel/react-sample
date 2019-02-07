@@ -1,3 +1,10 @@
+To run the app, clone the repo locally
+To install dependencies `yarn install` or `npm install`.
+To run the app `yarn start` or `npm start`.
+To run tests, `yarn test` or `npm test`.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
